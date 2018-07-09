@@ -10,5 +10,5 @@ In my code, `i` is the for loop variable, but it's not equal to `n` in `fib()`..
 | i | x | x | 1 | 2 | 3 | 4 | ... | 24 |
 | - | - | - | - | - | - | - | --- | -  |
 | n | 0 | 1 | 2 | 3 | 4 | 5 | ... | 25 |
-| fib(n) | 0 | 1 | 1 | 2 | 3 | 4 | ... | 75025  |
+| fib(n) | 0 | 1 | 1 | 2 | 3 | 5 | ... | 75025  |
 

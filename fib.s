@@ -1,9 +1,6 @@
 .data
 .text
 main:
-	#--------------------------------------#
-	#  \^o^/   Write your code here~  \^o^/#
-	#--------------------------------------#
 	addi $a0, $zero, 25
 	jal fib
 	add $t0, $v0, $zero
@@ -11,9 +8,6 @@ main:
 	li $v0, 10		# program stop
 	syscall
 fib:
-	#--------------------------------------#
-	#  \^o^/   Write your code here~  \^o^/#
-	#--------------------------------------#
 	addi $t2, $zero, 1	# int a=1;
 	addi $t3, $zero, 0	# int b=0;
 	addi $t5, $zero, 1	# for (i=1; i<n; i++) i=1
